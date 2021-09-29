@@ -1,0 +1,15 @@
+html,
+body,
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #fed0bb;
+}
+
+.main-header {
+  color: #8c2f39;
+  text-align: center;
+  font-size: ;
+}
