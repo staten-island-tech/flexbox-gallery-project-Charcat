@@ -2,14 +2,15 @@ html,
 body,
 * {
   padding: 0;
-  margin: 0;
+  margin: 1rem;
+  font-size: 130%;
 }
 body {
   background-color: #fed0bb;
 }
 
 .main-header {
-  color: #8c2f39;
+  color: #461220;
   text-align: center;
   font-size: ;
 }
