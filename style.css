@@ -2,15 +2,26 @@ html,
 body,
 * {
   padding: 0;
-  margin: 1rem;
-  font-size: 130%;
+  margin: 3rem;
+  font-size: 62.5%;
+  box-sizing: border-box;
 }
 body {
   background-color: #fed0bb;
 }
 
-.main-header {
+.title {
   color: #461220;
+  font-size: 5rem;
   text-align: center;
-  font-size: ;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 10vw;
+}
+
+.subtitle {
+  color: #461220;
+  font-size: 4rem;
+  border: 1rem solid #b23a48;
 }
