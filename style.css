@@ -7,21 +7,19 @@ body,
   box-sizing: border-box;
 }
 body {
-  background-color: #fed0bb;
+  background-color: #ebfaff;
 }
 
 .title {
-  color: #461220;
+  color: #53599a;
   font-size: 5rem;
   text-align: center;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 10vw;
 }
 
 .subtitle {
-  color: #461220;
   font-size: 4rem;
-  border: 1rem solid #b23a48;
+  border: 0.5rem solid #a1aeb3;
+  width: 20rem;
+  background-color: #91d9f3;
+  margin: 10rem;
 }
