@@ -2,7 +2,7 @@ html,
 body,
 * {
   padding: 0;
-  margin: 3rem;
+  margin: 0;
   font-size: 62.5%;
   box-sizing: border-box;
 }
@@ -16,10 +16,20 @@ body {
   text-align: center;
 }
 
+.flexbox {
+  border: 0.5rem solid #a1aeb3;
+  width: 30rem;
+  background-color: #91d9f3;
+  margin: 10rem auto;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cat-picture {
+  width: 25rem;
+}
+
 .subtitle {
   font-size: 4rem;
-  border: 0.5rem solid #a1aeb3;
-  width: 20rem;
-  background-color: #91d9f3;
-  margin: 10rem;
 }
