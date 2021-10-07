@@ -19,19 +19,16 @@ body {
 .flexbox {
   display: flex;
   justify-content: space-evenly;
-  flex-flow: row;
+  flex-wrap: wrap;
+  margin: 10rem auto;
+  width: 60vw;
 }
 
 .flexbox-1 {
   border: 0.5rem solid #a1aeb3;
-  width: 30rem;
+  width: 27%;
   background-color: #91d9f3;
-}
-
-.flexbox-2 {
-  border: 0.5rem solid #a1aeb3;
-  width: 30rem;
-  background-color: #91d9f3;
+  margin: 5rem auto;
 }
 
 .cat-picture {
