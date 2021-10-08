@@ -24,7 +24,7 @@ body {
   width: 60vw;
 }
 
-.flexbox-1 {
+.blog {
   border: 0.5rem solid #a1aeb3;
   width: 27%;
   background-color: #91d9f3;
@@ -32,7 +32,8 @@ body {
 }
 
 .cat-picture {
-  width: 25rem;
+  width: 20rem;
+  border-radius: 10%;
 }
 
 .subtitle {
