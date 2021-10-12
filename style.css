@@ -46,3 +46,25 @@ body {
   font-size: 4rem;
   margin-bottom: 1rem;
 }
+
+@media (max-width: 1024px) {
+  html,
+  body,
+  * {
+    font-size: 0.6rem;
+  }
+  .blog {
+    width: 40%;
+  }
+}
+
+@media (max-width: 650px) {
+  html,
+  body,
+  * {
+    font-size: 0.5rem;
+  }
+  .blog {
+    width: 70%;
+  }
+}
