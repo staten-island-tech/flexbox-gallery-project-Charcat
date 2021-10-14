@@ -47,6 +47,10 @@ body {
   margin-bottom: 1rem;
 }
 
+.blog:hover {
+  transform: scale(1.1);
+}
+
 @media (max-width: 1024px) {
   html,
   body,
