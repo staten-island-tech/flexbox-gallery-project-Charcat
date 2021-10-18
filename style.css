@@ -14,7 +14,8 @@ body {
   color: #53599a;
   font-size: 5rem;
   text-align: center;
-  transition: ease-out 1s;
+  margin-top: 1.5rem;
+  transition: transform 1s ease-in-out;
 }
 
 .flexbox {
@@ -62,6 +63,10 @@ body {
 }
 
 .title:hover {
+  transform: rotate(360deg);
+}
+
+.subtitle:hover {
   transform: scaleY(2);
 }
 
