@@ -75,20 +75,20 @@ body {
   height: 100px;
   width: 100px;
   position: absolute;
-  animation: sadcat 4s;
+  animation: sadcat 2s;
 }
 
 @keyframes sadcat {
   0% {
     left: 0%;
-    bottom: 20%;
+    bottom: 88%;
   }
   25% {
-    left: 20%;
-    bottom: 20%;
+    left: 84%;
+    bottom: 88%;
   }
   50% {
-    left: 20%;
+    left: 84%;
     bottom: 0%;
   }
   75% {
@@ -97,7 +97,7 @@ body {
   }
   100% {
     left: 0%;
-    bottom: 20%;
+    bottom: 88%;
   }
 }
 
