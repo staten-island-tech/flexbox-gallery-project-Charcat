@@ -64,10 +64,41 @@ body {
 
 .title:hover {
   transform: rotate(360deg);
+  color: black;
 }
 
 .subtitle:hover {
   transform: scaleY(2);
+}
+
+.animation {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  animation: sadcat 4s;
+}
+
+@keyframes sadcat {
+  0% {
+    left: 0%;
+    bottom: 20%;
+  }
+  25% {
+    left: 20%;
+    bottom: 20%;
+  }
+  50% {
+    left: 20%;
+    bottom: 0%;
+  }
+  75% {
+    left: 0%;
+    bottom: 0%;
+  }
+  100% {
+    left: 0%;
+    bottom: 20%;
+  }
 }
 
 @media (max-width: 1024px) {
